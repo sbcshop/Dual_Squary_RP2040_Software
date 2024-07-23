@@ -40,7 +40,20 @@ This github provides getting started guide for Dual Squary RP2040.
 
 ## Getting Started with Daul Squary RP2040
 ### Pinout
-<img src= "" />
+<img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/Dual_Squary_RP2040_Pinout.jpg" />
+
+| Main Board | Common Board|
+|---|---|
+| (1) Boot Button 			| (7) 1.54” TFT Display |
+| (2) Female Header 			| (8), (11) & (13) WS2812 RGB LED  | 
+| (3) & (5) Programmable Buttons 	| (9) Charging Status LED |
+| (4) Type C 				| (10) Male Header |
+| (6) RP2040 				| (12) TFcard slot |
+| (7) 1.54” TFT Display 		| (14) Power Status LED	|
+|  					| (15) Battery Connector |
+|  					| (16) QMI8658C 6D IMU Sensor |
+|					| (17) GPIO’s Breakout |
+
   
 ### Interfacing Details
  - **_Dual Display interfacing with RP2040_**
@@ -125,39 +138,39 @@ This github provides getting started guide for Dual Squary RP2040.
     
   Drag and drop Firmware file onto the RPI-RP2 volume.
 
-  <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/firmware_install.png" width="740" height="463">
+  <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/firmware_upload.jpg" width="639" height="325">
 
 
 ### 2. Running First Program
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Download this github which contains various examples and open anyone of example in Thonny.
 
-     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/github_download.png" width="767" height="386" />
+     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/github_download.jpg" width="767" height="386" />
    - Now we have **Thonny IDE application** and github example codes, Connect hardware to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
      <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
   
-   - Make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) lib file to device to avoid any execution error.
+   - Make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/dualdisplay.py) lib file to device if not already present to avoid any execution error.
 
-      <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/lib_save.png" />
+      <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/lib_file.png" />
 
    - Once everything all set, with any demo code open click on green play button to test program.
 
-     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/run_script.png" />
+     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/run_script.png" />
 
    - For standalone execution save script into device as main.py,
 
-     <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/main_save.png" />
+     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/main_standalone.png" />
 
      Try out below provided reference example demo codes and modify to build your own application codes.
      
 
 ### Example Codes
-   Try reference demo codes to test onboard components, also make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) lib file into board
-   - [Dual Display Demo]() : Visualize onboard display working with sample code
-   - [6-axis IMU Sensor]() : To read accelerometer and gyroscope value
-   - [Buttons Demo]() : Testing onboard user programmable buttons
-   - [More...]()
+   Try reference demo codes to test onboard components, also make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/dualdisplay.py) lib file into board
+   - [Dual Display Demo](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_DualDisplay.py) : Visualize onboard display working with sample code
+   - [6-axis IMU Sensor](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_IMU.py) : To read accelerometer and gyroscope value
+   - [Buttons Demo](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_RGB_BTN.py) : Testing onboard user programmable buttons
+   - [More...](https://github.com/sbcshop/Dual_Squary_RP2040_Software/tree/main/examples)
 
    Using this sample code as a guide, you can modify, build, and share codes!!
 
@@ -168,7 +181,6 @@ This github provides getting started guide for Dual Squary RP2040.
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Raspberry Pico Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
   * [QMI8658C Datasheet]()
-  * [Datasheet]()
 
 
 ## Related Products  
