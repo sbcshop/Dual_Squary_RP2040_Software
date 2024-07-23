@@ -42,20 +42,25 @@ This github provides getting started guide for Dual Squary RP2040.
 ### Pinout
 <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/Dual_Squary_RP2040_Pinout.jpg" />
 
-| Main Board | Common Board|
-|---|---|
-| (1) Boot Button 			| (7) 1.54” TFT Display |
-| (2) Female Header 			| (8), (11) & (13) WS2812 RGB LED  | 
-| (3) & (5) Programmable Buttons 	| (9) Charging Status LED |
+| Main Side | Common Side |  Common Side  |
+|---|---|---|
+| (1) Boot Button 			| (7) 1.54” TFT Display (Bottom) | (15) Battery Connector |
+| (2) Female Header 			| (8), (11) & (13) WS2812 RGB LED  | (16) QMI8658C 6D IMU Sensor |
+| (3) & (5) Programmable Buttons 	| (9) Charging Status LED |(17) GPIO’s Breakout |
 | (4) Type C 				| (10) Male Header |
 | (6) RP2040 				| (12) TFcard slot |
-| (7) 1.54” TFT Display 		| (14) Power Status LED	|
-|  					| (15) Battery Connector |
-|  					| (16) QMI8658C 6D IMU Sensor |
-|					| (17) GPIO’s Breakout |
+| (7) 1.54” TFT Display (Top)		| (14) Power Status LED	|
 
-  
+### Connecting Main and Common board 
+
+Hold Main and common board as shown below and then connect both using provided Male and female header
+
+<img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/DualSquary_RP2040_Connection.gif"  width="580" height="267" >
+
 ### Interfacing Details
+
+When you connect both Main and common board together following pins of RP2040 interfaced with various onboard hardware,
+
  - **_Dual Display interfacing with RP2040_**
 	
    | RP2040 | Main Display | Function |
