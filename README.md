@@ -180,12 +180,12 @@ When you connect both Main and common board together following pins of RP2040 in
    Using this sample code as a guide, you can modify, build, and share codes!!
 
 ## Resources
-  * [Main RP2040 Schematic]()
-  * [Common Board Schematic]()
-  * [Mechanical Files]()
+  * [Main RP2040 Schematic](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/blob/main/Design%20Data/Sch_Dual_Squary_RP2040_Main.pdf)
+  * [Common Board Schematic](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/blob/main/Design%20Data/SCH_Dual_Square_Common.pdf)
+  * [Mechanical Files](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/tree/main/Mechanical%20Data)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
-  * [Raspberry Pico Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
-  * [QMI8658C Datasheet]()
+  * [RP2040 Datasheet](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/Documents/rp2040-datasheet.pdf)
+  * [QMI8658C Datasheet](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/Documents/QMI8658C.pdf)
 
 
 ## Related Products  
