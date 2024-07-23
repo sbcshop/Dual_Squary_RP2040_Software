@@ -111,7 +111,7 @@ This github provides getting started guide for Dual Squary RP2040.
   
 ### 1. How to Install Boot Firmware 
 
-- Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main#2-running-first-program) for trying Demo Codes.
+- Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/README.md#2-running-first-program) for trying Demo Codes.
 - In any case, you want to add again **MicroPython firmware**. First, you need to *Press and Hold* the boot button onboard, and then, without releasing the button, connect it to PC/laptop using Type C USB interface. Check below image for reference,
   
   <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
@@ -161,13 +161,13 @@ This github provides getting started guide for Dual Squary RP2040.
    Using this sample code as a guide, you can modify, build, and share codes!!
 
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Main RP2040 Schematic]()
+  * [Common Board Schematic]()
+  * [Mechanical Files]()
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Raspberry Pico Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/pico-w-datasheet.pdf)
-  * [QMI8658C Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/ds3231.pdf)
-  * [Datasheet](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/Documents/BME280-Datasheet.pdf)
+  * [QMI8658C Datasheet]()
+  * [Datasheet]()
 
 
 ## Related Products  
