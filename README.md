@@ -126,7 +126,7 @@ This github provides getting started guide for Dual Squary RP2040.
 
   <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/firmware_install.png" width="740" height="463">
 
-<!--
+
 ### 2. Running First Program
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Download this github which contains various examples and open anyone of example in Thonny.
@@ -136,7 +136,7 @@ This github provides getting started guide for Dual Squary RP2040.
 
      <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
   
-   - Make sure to save [_**lib**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) folder which contains dependent library file to device to avoid any execution error.
+   - Make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) lib file to device to avoid any execution error.
 
       <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/lib_save.png" />
 
@@ -144,7 +144,7 @@ This github provides getting started guide for Dual Squary RP2040.
 
      <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/run_script.png" />
 
-   - For standalone execution save script into Pico as main.py,
+   - For standalone execution save script into device as main.py,
 
      <img src= "https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/main_save.png" />
 
@@ -152,14 +152,14 @@ This github provides getting started guide for Dual Squary RP2040.
      
 
 ### Example Codes
-   Try reference demo codes to test onboard components, also make sure to save lib folder into Pico W of board which contains library files.
-   - [Display Demo Code](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Square1_54/Demo_4Display.py) : Visualize onboard display working with sample code
-   - [BME280 Sensor](https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/examples/2x2_Display_PicoW_Square1_54/Demo_BME280.py) : BME280 sensor to read Temperature, humidity and pressure demo
-   - [More...](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Square1_54)
+   Try reference demo codes to test onboard components, also make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/2x2_Display_PicoW_Software/tree/main/examples/2x2_Display_PicoW_Round1_28/lib) lib file into board
+   - [Dual Display Demo]() : Visualize onboard display working with sample code
+   - [6-axis IMU Sensor]() : To read accelerometer and gyroscope value
+   - [Buttons Demo]() : Testing onboard user programmable buttons
+   - [More...]()
 
    Using this sample code as a guide, you can modify, build, and share codes!!
 
-   -->
 ## Resources
   * [Schematic]()
   * [Hardware Files]()
