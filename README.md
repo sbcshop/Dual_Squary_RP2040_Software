@@ -2,7 +2,8 @@
 
 <img src= "" />
 
-Dual Squary RP2040 features two 1.54" square displays, powered by the RP2040 chip, and an onboard 6D MEMS IMU, offering the perfect platform for your creative projects. This powerful combination ensures precise control and dynamic visualization, making it ideal for a wide range of innovative applications.
+Dual Squary RP2040 has two 1.54" square displays driven by the RP2040 chip, an array of four WS2812B RGB LEDs, and an inbuilt QMI8658C 6D MEMS IMU, providing the ideal platform for your creative ideas. 
+Easy programming using the Type C interface, as well as several dynamic visualization features, make it appropriate for a wide range of unique applications.
 
 This github provides getting started guide for Dual Squary RP2040.
 
