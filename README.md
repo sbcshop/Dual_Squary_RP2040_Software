@@ -133,7 +133,7 @@ When you connect both Main and common board together following pins of RP2040 in
 - Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/README.md#2-running-first-program) for trying Demo Codes.
 - In any case, you want to add again **MicroPython firmware**. First, you need to *Press and Hold* the boot button onboard, and then, without releasing the button, connect it to PC/laptop using Type C USB interface. Check below image for reference,
   
-  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
+  <img src="https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/press_BootBTN_squary_rp2040_2.gif" width="296" height="266">
 
 - Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
 
@@ -183,10 +183,9 @@ When you connect both Main and common board together following pins of RP2040 in
   * [Main RP2040 Schematic](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/blob/main/Design%20Data/Sch_Dual_Squary_RP2040_Main.pdf)
   * [Common Board Schematic](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/blob/main/Design%20Data/SCH_Dual_Square_Common.pdf)
   * [Mechanical Files](https://github.com/sbcshop/Dual_Squary_RP2040_Hardware/tree/main/Mechanical%20Data)
-  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [RP2040 Datasheet](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/Documents/rp2040-datasheet.pdf)
   * [QMI8658C Datasheet](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/Documents/QMI8658C.pdf)
-
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
 
 ## Related Products  
   * [2x2 Display with ESP32 S3 (Round)](https://shop.sb-components.co.uk/products/2x2-quad-display-board?variant=41538301493331)
