@@ -81,19 +81,6 @@ When you connect both Main and common board together following pins of RP2040 in
    | GPIO15 | LCD2_BL | Backlight of display|
    | GPIO12 | LCD2_RST | Reset of display|
 
-   ```
-    #Code Snippets: Display interfacing
-    spi0 = SPI(0, baudrate=40000000, sck=Pin(18), mosi=Pin(19)) # Main (RP2040) board Display SPI pins
-    spi1 = SPI(1, baudrate=40000000, sck=Pin(10), mosi=Pin(11))	# Common base board display SPI pins
-    
-    # Define TFT displays with different CS pins
-    tft0 = st7789.ST7789(spi0, 240, 240, reset=Pin(16, Pin.OUT), cs=Pin(17, Pin.OUT), dc=Pin(6, Pin.OUT), backlight=Pin(7, Pin.OUT), rotation=0)
-    tft1 = st7789.ST7789(spi1, 240, 240, reset=Pin(12, Pin.OUT), cs=Pin(13, Pin.OUT), dc=Pin(14, Pin.OUT), backlight=Pin(15, Pin.OUT), rotation=0)
-    
-    tft0.init() 
-    tft1.init()
-   ```
-
  - **_SDcard Interface_**
    | RP2040 | SDCard | Function |
    |---|---|---|
@@ -101,11 +88,6 @@ When you connect both Main and common board together following pins of RP2040 in
    | GPIO3  | CARD_MOSI | MOSI (Master OUT Slave IN) pin of SPI interface|
    | GPIO4 | CARD_MISO  | MISO (Master IN Slave OUT) pin of SPI interface|
    | GPIO5  | CARD_CS  | Chip Select pin of SPI interface|
-   ```
-   #Code Snippets: SD interfacing
-   spi=SPI(0,sck=Pin(2),mosi=Pin(3),miso=Pin(4)) #define and configure sdcard SPI interfacing
-   sd=SDCard(spi,Pin(5)) # SDCard(arg1, arg2) => arg1 : SPI, arg2 : CS
-   ```
    
 - **_QMI8658C IMU Interfacing_**
   | RP2040 | IMU | Function |
@@ -119,6 +101,7 @@ When you connect both Main and common board together following pins of RP2040 in
   |GPIO22| BT1 | Programmable Button |
   |GPIO9 | BT2 | Programmable Button |
   |GPIO8 | BT3 | Programmable Button |
+  |GPIO28 | DIN | Data In of WS2812 RGBLed Array |
   
 - _**GPIOs Breakout**_
   | RP2040 | Function |
