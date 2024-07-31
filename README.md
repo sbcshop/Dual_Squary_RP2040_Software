@@ -57,7 +57,7 @@ This github provides getting started guide for Dual Squary RP2040.
 
 Hold Main and common board as shown below and then connect both using provided Male and female header
 
-<img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/DualSquary_RP2040_Connection.gif"  width="870" height="250" >
+<img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/combine_dual_squary_RP2040.gif"  width="870" height="250" >
 
 ### Interfacing Details
 
